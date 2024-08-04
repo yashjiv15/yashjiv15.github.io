@@ -21,4 +21,11 @@ export class AppComponent {
   closeModal(index: number) {
     this.modalOpen[index] = false; // Close the modal
   }
+  downloadCV() {
+    const link = document.createElement('a');
+    link.href = 'assets/pdf/Yash-Cv.pdf';
+    link.download = 'Yash-Cv.pdf';
+    link.click();
+  }
+
 }
