@@ -1,17 +1,1034 @@
-<html>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+   
+    <title> Yash's Portfolio </title>
+</head>
+
 <body>
-    
-<div class="wrapper">
-    <h1>coming soon<span class="dot">.</span></h1>
-    <br>
-    <p>Yash Jivrajani</p>
-    <br> <br>
-    <div class="icons">
-      <a href="https://github.com/yashjiv1502"><i class="fa fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/yash-jivrajani-77ba0717b/"><i class="fa fa-linkedin"></i></a>
-      <a href="https://yashjiv1502.github.io/"><i class="fa fa-address-card"></i></a>
-    </div>
-   </div>
-   </body>
-   </html>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Yash</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Yash Jivrajani</h1>
+                    <h3 class="home__education">Full Stack Software Developer</h3>
+
+                    <div class="home__button">
+                        <a download="" href="../../public/assets/pdf/Yash-Cv.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/Photo1.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/yash-jivrajani-77ba0717b/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/yashjiv1502" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://twitter.com/yashjiv15" target="_blank" class="home__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/Profile1.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">7 Months of Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">10+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Deployed</h3>
+                            <span class="about__subtitle">5 Projects</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Full Stack  Developer - I create web ,desktop,android applications with UI as Frontend, Backend 
+                        developement,database creation & designing .
+                         <br>                         <br>
+
+                         Education :- <br> 
+                         <i class='bx bx-check-circle'></i> Dy Patil School Of MCA Pune Maharashtra <br>
+                        -> &NonBreakingSpace;&NonBreakingSpace;9.36 (SGPA)<br>
+                        -> &NonBreakingSpace;&NonBreakingSpace;Master of Computer Application (MCA)<br>
+                        -> &NonBreakingSpace;&NonBreakingSpace;November 2022 - May 2024<br><br>   
+                        <i class='bx bx-check-circle'></i> Smt. Maherbanu College of Science Akola Maharashtra<br>
+                        -> &NonBreakingSpace;&NonBreakingSpace;80 %<br>
+                        -> &NonBreakingSpace;&NonBreakingSpace;Bachelor of Computer Application (BCA) <br>
+                        -> &NonBreakingSpace;&NonBreakingSpace;July 2019 - July 2022<br><br>   
+                        <i class='bx bx-check-circle'></i> ASM Geetamata College Pune<br>
+                        -> 64 %<br>
+                        -> HSC<br>
+                        -> June 2017 - March 2019<br><br>   
+                        <i class='bx bx-check-circle'></i> Holy Cross Convent High School Akola<br>
+                        -> 81.40 %<br>
+                        -> SSC<br>
+                        -> 2017     <br>             </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">What Im capable in</span>
+            <h2 class="section__title">My Skills</h2>
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML/CSS3</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Angluar</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Next.JS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Next.js</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL , Mongo , Postgres</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                </div>  
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">What I Delivered</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="services__container container grid">
+              
+                <div class="services__card">
+                   
+                    <div class="serv">
+                        <span class="duration">- Currently Working</span>
+                        <h3 class="services__title">Mindcodes <br>  Pune</h3>
+
+                        <span class="services__button" (click)="openModal($event, 0)">
+
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal" [class.active-modal]="modalOpen[0]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(0)"></i>
+
+                            <h3 class="services__modal-title">Mindcodes</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based  software applications including web,android,desktop
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Smart Office Web Application <b>(Next.js)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       CA Irahim & Co. web application <b>(Angular,Python)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Nirdhara E-commerce web application <b>(Next.js)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Vineo Ticketing System  <b>(Angular,Python)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Vedic Maths <b>(Android)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link'></i>
+                                                                        <p class="services__modal-info">
+                                       Link :-<b><a href="https://mindcodes.in/"> &NonBreakingSpace;Mindcodes</a></b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <span class="duration">January - June 2024</span>
+                        <h3 class="services__title">PentaShield Technologies <br>Vadodara</h3>
+
+                        <span class="services__button" (click)="openModal($event, 1)">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+
+                        <div class="services__modal" [class.active-modal]="modalOpen[1]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(1)"></i>
+
+                            <h3 class="services__modal-title">PentaSheild Technologies PVT.LTD</h3>
+
+                            <p class="services__modal-description">
+                                I have complete Internship as Full Stack Developer here with major
+                                 projects related to <b>DRDO</b> defence organization of India.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Video Surveillance & Management System <b>(Angular,Python)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Communication and Target Detection<br> <b>(Android)</b>
+                                    </p>
+                                </li>
+
+                              
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link'></i>
+                                                                        <p class="services__modal-info">
+                                       Link :-<b><a href="https://pentashieldtech.com/">
+                                         &NonBreakingSpace;PentaSheild Technologies PVT.LTD</a></b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <span class="duration">2023</span>
+                    <h3 class="services__title">Freelancing Project<br> Online</h3>
+
+                    <span class="services__button" (click)="openModal($event, 2)">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+                    <div class="services__modal" [class.active-modal]="modalOpen[2]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(2)"></i>
+
+
+                            <h3 class="services__modal-title">Freelancing Project for private client</h3>
+
+                            <p class="services__modal-description">
+                              I have developed a Fees management system for college purpose
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Fees Management System <br> <b>(Android)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Up-Rise a web application  <br> <b>(Html,Css,Php)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-link'></i>
+                                                                        <p class="services__modal-info">
+                                      Project  Link :-<b><a href="https://github.com/yashjiv1502/Fees-Management-System">
+                                         &NonBreakingSpace;Github</a></b>
+                                    </p>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>Web</span>
+                <span class="work__item active-work" data-filter='all'>Android</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/VMS1.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Video Surveillance System</h3>
+
+                    <a href="#" class="work__button"(click)="openModal($event, 3)">
+                        See More <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+
+                    <div class="services__modal" [class.active-modal]="modalOpen[3]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(3)"></i>
+
+                            <h3 class="services__modal-title">Video Surveillance <br>& Management System</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based  software application for managing,recording,alerting live video feeds.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Role :- <b>Frontend ,Backend,Databse Designer</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Technologies used <b>(Angular,Python(flask),postgres )</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Motion/Object/Person/ANPR <b>(Detection Module)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Roles and Permissions <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Users <b>(Management)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bxs-time'></i>
+                                    <p class="services__modal-info">
+                                       Time Required <b>(4 Months)</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/SO1.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Smart Office </h3>
+
+                    <a href="#" class="work__button"(click)="openModal($event, 4)">
+
+                        See More <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+
+                    <div class="services__modal" [class.active-modal]="modalOpen[4]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(4)"></i>
+
+                            <h3 class="services__modal-title">Smart Office <br>CA Product</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based  software application for managing internal office transactions and ERP.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Role :- <b>Frontend ,Backend,Databse Designer</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Technologies used <b>(Next.JS,postgres )</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Customer/Employee/Admin <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Roles and Permissions <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Documents <b>(Management)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bxs-time'></i>
+                                    <p class="services__modal-info">
+                                       Time Required <b>(2 Months)</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/CA.png" alt="" class="work__img">
+
+                    <h3 class="work__title">CA Ibrahim & Co.</h3>
+
+                    <a href="#" class="work__button"(click)="openModal($event, 5)">
+
+                        See More <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                    <div class="services__modal" [class.active-modal]="modalOpen[5]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(5)"></i>
+
+                            <h3 class="services__modal-title">CA Ibrahim & Co <br>CA Product</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based  software application for portfolio marketing for a CA.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Role :- <b>Frontend ,Backend,Databse Designer</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Technologies used <b>(Angular,Python,MySQL )</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Client/Admin <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Roles <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Blogs and Services <b>(Management)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bxs-time'></i>
+                                    <p class="services__modal-info">
+                                       Time Required <b>(1 Months)</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/VT.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Vineo Ticketing System</h3>
+
+                    <a href="#" class="work__button"(click)="openModal($event, 6)">
+
+                        See More <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                    <div class="services__modal" [class.active-modal]="modalOpen[6]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(6)"></i>
+
+                            <h3 class="services__modal-title">Vineo Ticketing System</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based  software application for managing the support team and feedback from the clients.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Role :- <b>Frontend ,Backend,Databse Designer</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Technologies used <b>(Angular,Python,Postgres )</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Customer/Admin <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Roles <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                     Tickets and Reports <b>(Management)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bxs-time'></i>
+                                    <p class="services__modal-info">
+                                       Time Required <b>(2 Months)</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/CMS3.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Communication & Target Detection
+                    </h3>
+
+                    <a href="#" class="work__button"(click)="openModal($event, 7)">
+
+                        See More <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                    <div class="services__modal" [class.active-modal]="modalOpen[7]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(7)"></i>
+
+                            <h3 class="services__modal-title">Communication & Target Detection System</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based android application for getting realtime location of a target and chat communication.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Role :- <b>Frontend ,Backend,Databse Designer</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Technologies used <b>(Android(Kotlin),Postgres,Room )</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       User/Admin <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Roles and Permissions <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                    Target/Location/Communication<b>(Management)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bxs-time'></i>
+                                    <p class="services__modal-info">
+                                       Time Required <b>(Current)</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                 <div class="work__card mix movil">
+                    <img src="assets/img/UPRISE.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Up-Rise 
+                    </h3>
+
+                    <a href="#" class="work__button"(click)="openModal($event, 8)">
+
+                        See More <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                    <div class="services__modal" [class.active-modal]="modalOpen[8]">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close' (click)="closeModal(8)"></i>
+
+                            <h3 class="services__modal-title">Up-Rise Startup Portal</h3>
+
+                            <p class="services__modal-description">
+                                I have developed product based Web application for people to connect and create a good startup 
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        My Role :- <b>Frontend ,Backend,Databse Designer</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Technologies used <b>(Html5,Css3,BootStrap,PHP,MySQL )</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       User/Admin <b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Roles<b>(Management)</b>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                   Mentors/Projects/Communication<b>(Management)</b>
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bxs-time'></i>
+                                    <p class="services__modal-info">
+                                       Time Required <b>(3 Months)</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/Logo.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">PentaSheild Technologies Pvt.Ltd</h3>
+                        <p class="testimonial__description">
+                            During your internship, you have been involved in Frontend Development of Web application. Your ability to complete the task on time has been noteworthy,
+                             and we believe these experiences will be valuable as you continue your professional journey.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Ada Hill</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were done well.
+                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Jessica Park</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were done well.
+                            Very creative and thoughtful. I was very impressed and would recommend this to anyone.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h3 class="section__title">Contact Me</h3>
+
+           
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">{{email}}</span>
+
+                            <a href="mailto:{{email}}" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+91 9834464841</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+919834464841&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">linkedin</h3>
+                            <span class="contact__card-data">Yash Jivrajani</span>
+
+                            <a href="https://www.linkedin.com/in/yash-jivrajani-77ba0717b/" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+               
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Yash</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/yash.thakkar.7595" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://twitter.com/yashjiv15" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/yash-jivrajani-77ba0717b/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/thakkar_____yash_thakkar_/?utm_source=qr" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2024. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+   
+</body>
+
+</html>

@@ -6,8 +6,19 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Portfolio';
+  email = "yashjiv1502@gmail.com";
+  modalOpen = [false, false, false,false,false,false,false, false,false]; // Array to keep track of modal states
+
+  openModal(event: MouseEvent, index: number) {
+    event.preventDefault();
+    this.modalOpen[index] = !this.modalOpen[index]; // Toggle modal state
+  }
+
+  closeModal(index: number) {
+    this.modalOpen[index] = false; // Close the modal
+  }
 }
